@@ -40,3 +40,4 @@ def first_non_consecutive5(arr):
     return next((j for i, j in zip(arr, arr[1:]) if i + 1 != j), None)
 
 print(first_non_consecutive5([45,46,47,48,50,51,55,78,90,100]))
+
